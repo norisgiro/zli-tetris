@@ -1,14 +1,17 @@
 import { useState, useCallback } from "react";
+import breakingvase from "../audio/";
 
 const buildGameStats = () => ({
   level: 1,
   linesCompleted: 0,
   linesPerLevel: 10,
-  points: 0
+  points: 0,
 });
 
 export const useGameStats = () => {
   const [gameStats, setGameStats] = useState(buildGameStats());
+
+  const audio = new Audio(breakingvase);
 
   const addLinesCleared = useCallback((lines) => {
     setGameStats((previous) => {
@@ -21,11 +24,15 @@ export const useGameStats = () => {
           : previous.level;
       const linesCompleted = newLinesCompleted % linesPerLevel;
 
+      if (lines > 0) {
+        audio.play();
+      }
+
       return {
         level,
         linesCompleted,
         linesPerLevel,
-        points
+        points,
       };
     }, []);
   }, []);
