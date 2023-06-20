@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zli-tetris/static/css/main.157c1b17.css",
+    "main.js": "/zli-tetris/static/js/main.d630f54c.js",
+    "static/media/blj.jpg": "/zli-tetris/static/media/blj.e5c479a720e4731d4bd2.jpg",
+    "index.html": "/zli-tetris/index.html",
+    "main.157c1b17.css.map": "/zli-tetris/static/css/main.157c1b17.css.map",
+    "main.d630f54c.js.map": "/zli-tetris/static/js/main.d630f54c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.157c1b17.css",
+    "static/js/main.d630f54c.js"
+  ]
+}
