@@ -1,0 +1,35 @@
+.GameStats {
+  position: absolute;
+  width: 36.5vw;
+  list-style-type: none;
+  color: #37e8fc;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  top: 0;
+}
+
+.GameStats__left {
+  right: 0;
+  top: 0vh;
+  text-align: left;
+}
+
+.GameStats__right {
+  right: 0;
+  bottom: 0;
+  text-align: left;
+}
+
+.GameStats .value {
+  font-size: 2.8rem;
+  margin-bottom: 0.5em;
+  color: rgb(255, 153, 0);
+}
+
+.stats-item {
+  background: rgba(0, 0, 0, 0.4);
+  margin: 20px;
+  width: 206px;
+  border: 10px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}

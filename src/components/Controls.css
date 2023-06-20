@@ -1,0 +1,24 @@
+.background-item {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  width: 28vw;
+  height: 27vh;
+  position: relative;
+  top: 400px;
+  left: 64vw;
+}
+
+.background-item h2 {
+  margin-bottom: 10px;
+}
+
+.background-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.background-item li {
+  margin-bottom: 5px;
+}
