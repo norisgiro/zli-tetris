@@ -3,7 +3,7 @@
     "short_name": "Z-T",
     "description": "Das Tetris-Spiel wird genau wie das normale Tetris aufgebaut sein. Zu Beginn des Spiels fällt ein zufällig ausgewählter Tetromino von der Oberseite des Spielfelds nach unten. Der Spieler kann den Tetromino horizontal bewegen und ihn um 90 Grad drehen, um ihn passend in das Spielfeld zu platzieren.",
     "version": "1.0.0",
-    "start_url": "https://norisgiro.github.io/zli-tetris/",
+    "start_url": "https://norisgiro.github.io/zli-tetris/manifest.json",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#3367D6",
