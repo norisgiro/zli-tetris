@@ -1,6 +1,11 @@
 import { hasCollision, isWithinBoard } from "./Board";
 import { rotate } from "./Tetrominoes";
 import { Action } from "./Input";
+import click from "../audio/click.mp3";
+import flash from "../audio/flash.mp3";
+
+const audio = new Audio(click);
+const flashAudio = new Audio(flash);
 
 const attemptRotation = ({ board, player, setPlayer }) => {
   const shape = rotate({
@@ -21,6 +26,7 @@ const attemptRotation = ({ board, player, setPlayer }) => {
         shape,
       },
     });
+    audio.play(); 
   } else {
     return false;
   }
@@ -59,12 +65,15 @@ const attemptMovement = ({ board, action, player, setPlayer, setGameOver }) => {
 
   if (action === Action.FastDrop) {
     isFastDropping = true;
+    flashAudio.play();
   } else if (action === Action.SlowDrop) {
     delta.row += 1;
   } else if (action === Action.Left) {
     delta.column -= 1;
+    audio.play()
   } else if (action === Action.Right) {
     delta.column += 1;
+    audio.play()
   }
 
   const { collided, nextPosition } = movePlayer({
