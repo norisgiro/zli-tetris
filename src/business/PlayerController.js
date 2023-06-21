@@ -26,7 +26,7 @@ const attemptRotation = ({ board, player, setPlayer }) => {
         shape,
       },
     });
-    audio.play(); 
+    audio.play();
   } else {
     return false;
   }
@@ -70,10 +70,10 @@ const attemptMovement = ({ board, action, player, setPlayer, setGameOver }) => {
     delta.row += 1;
   } else if (action === Action.Left) {
     delta.column -= 1;
-    audio.play()
+    audio.play();
   } else if (action === Action.Right) {
     delta.column += 1;
-    audio.play()
+    audio.play();
   }
 
   const { collided, nextPosition } = movePlayer({
