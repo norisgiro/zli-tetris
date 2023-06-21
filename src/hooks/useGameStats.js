@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import breakingvase from "../audio/";
+import plop from "../audio/plopp.mp3";
 
 const buildGameStats = () => ({
   level: 1,
@@ -11,7 +11,7 @@ const buildGameStats = () => ({
 export const useGameStats = () => {
   const [gameStats, setGameStats] = useState(buildGameStats());
 
-  const audio = new Audio(breakingvase);
+  const audio = new Audio(plop);
 
   const addLinesCleared = useCallback((lines) => {
     setGameStats((previous) => {
