@@ -2,7 +2,7 @@
 
 This is a Tetris game built with React. It provides a classic gameplay experience where players can control and maneuver Tetromino pieces to create complete horizontal lines and earn points.
 
-![Tetris Game Screenshot](/zli-tetris/image/zli-tetris.png)
+<img src="./image/zli-tetris.png" alt="Background" style="width: 100%; max-width: 500px;">
 
 ## ☕ Features
 
