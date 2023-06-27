@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/zli-tetris/static/css/main.77b3bbda.css",
+    "main.css": "/zli-tetris/static/css/main.847fcb27.css",
     "main.js": "/zli-tetris/static/js/main.7c6c7745.js",
     "static/media/blj.jpg": "/zli-tetris/static/media/blj.e5c479a720e4731d4bd2.jpg",
     "static/media/flash.mp3": "/zli-tetris/static/media/flash.f8ed255b09c2d6d43f0a.mp3",
     "static/media/plopp.mp3": "/zli-tetris/static/media/plopp.e22a29457dee323e9c4c.mp3",
     "static/media/click.mp3": "/zli-tetris/static/media/click.cd0eda3be2f225fc8317.mp3",
     "index.html": "/zli-tetris/index.html",
-    "main.77b3bbda.css.map": "/zli-tetris/static/css/main.77b3bbda.css.map",
+    "main.847fcb27.css.map": "/zli-tetris/static/css/main.847fcb27.css.map",
     "main.7c6c7745.js.map": "/zli-tetris/static/js/main.7c6c7745.js.map"
   },
   "entrypoints": [
-    "static/css/main.77b3bbda.css",
+    "static/css/main.847fcb27.css",
     "static/js/main.7c6c7745.js"
   ]
 }
